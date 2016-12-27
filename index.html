@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/queries.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<header>
+		<div class="hero">
+			<div class="container-fluid ">
+				<div class="row">
+     				<div class="text-center"> 
+						<h2  ><strong>¿Que pasa si el loro habla ?</strong></h2>
+					</div>
+     			</div>
+     			<div class="text-center">
+					<div class="container">
+				<div class="row">
+					<div class="col-md-5 col-md-offset-2 form">
+						<div class="form-group">
+							<label for="dia">¿Qué hora es?</label>
+							<select class="form-control" id="hora">
+								<option value="0">12:00 AM</option>
+								<option value="1">1:00 AM</option>
+								<option value="2">2:00 AM</option>
+								<option value="3">3:00 AM</option>
+								<option value="4">4:00 AM</option>
+								<option value="5">5:00 AM</option>
+								<option value="6">6:00 AM</option>
+								<option value="7">7:00 AM</option>
+								<option value="8">8:00 AM</option>
+								<option value="9">9:00 AM</option>
+								<option value="10">10:00 AM</option>
+								<option value="11">11:00 AM</option>
+								<option value="12">12:00 PM</option>
+								<option value="13">13:00 PM</option>
+								<option value="14">14:00 PM</option>
+								<option value="15">15:00 PM</option>
+								<option value="16">16:00 PM</option>
+								<option value="17">17:00 PM</option>
+								<option value="18">18:00 PM</option>
+								<option value="19">19:00 PM</option>
+								<option value="20">20:00 PM</option>
+								<option value="21">21:00 PM</option>
+								<option value="22">22:00 PM</option>
+								<option value="23">23:00 PM</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="vacaciones">¿El loro esta hablando?</label>
+							<select class="form-control" id="talking">
+								<option value="1">Si</option>
+								<option value="2">No</option>
+							</select>
+						</div>
+						<button onclick="calcular()" class="btn btn_menu">Calcular</button>
+					</div>
+					<div class="col-md-3 text-center mensaje">
+						<label >Mensaje</label>
+						<div id="salida" style="font-size:50px;" class="text-center">--</div>
+						<br>
+						<div id="mensajes" style="font-size:15px;" class="text-center"></div>
+					</div>
+				</div>
+			</div>
+        </div>
+     </div>
+   </div>		
+</header>
+</body>
+<script src="js/main.js"></script>
+</html>
